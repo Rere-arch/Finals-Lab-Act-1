@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
-import Personalinfo from './csb/components/Personalinfo';
-import Skills from './csb/components/Skills';
-import Projects from './csb/components/Projects';
+import Personalinfo from './components/Personalinfo';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -28,3 +28,4 @@ function App() {
 }
 
 export default App;
+
